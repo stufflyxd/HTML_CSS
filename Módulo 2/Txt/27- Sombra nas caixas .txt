@@ -1,0 +1,25 @@
+Ao utilizar sombras, devemos tomar cuidado para não exagerar. Não temos que mostrar de forma forçada para o usuário que em determinados pontos do site existem sombras... É como vimos nos capítulos anteriores de Cores e Fontes, o cérebro irá perceber a harmonia das propriedades de forma automática e inconsciente.
+
+As sombras funcionam já com uma shorthand (simplificação de várias declarações em uma linha) e os recursos do DevTools ajudam muito na hora de criarmos e configurarmos sombras.
+
+Para inserir SOMBRAS DE CAIXA , temos que utilizar a Propriedade de Estilo shorthand  box-shadow , essa propriedade shorthand geralmente possui quatro parâmetros (cinco na verdade) que devem ser preenchidos obrigatoriamente na seguinte ordem  
+
+(1 - Deslocamento horizontal - O quanto a sombra irá andar para o lado direito ou esquerdo (Valor em negativo para ir pra esquerda, ex  -10px ) - X OFFSET
+
+(2 - Deslocamento vertical - O quanto a sombra irá andar para baixo ou para cima (Valor em negativo para ir pra cima, ex  -10px ) - Y OFFSEY
+
+(3 - O quanto essa sombra irá espalharembaçar - BLUR
+
+(4 - Nível de alcancetamanho que essa sombra irá ter (ESSE VALOR GERALMENTE NÃO É USADO, É SÓ NÃO INSERI-LO NA SHORTHAND NESSE CASO) - SPREAD
+
+(5 - Qual cor essa sombra vai ter e o nível de transparência (alpha) que essa cor irá ter 
+
+Exemplo de Shorthand (sem o valor spread )  box-shadow 1px 1px 1px #0000007e;  (Siga a ordem de inserção de valores do exemplo na hora de usar uma shorthand, caso contrário não funcionará corretamente)
+
+Ao configurar a sombra de uma caixa, é interessante abrir o DevTools e formatar os valores da shorthand pelo Sub Menu de Regulagem shadow editor da interface DevTools de maneira manual e observando as mudanças em tempo real na tela do navegador, até encontrar a configuração ideal... Passando essa configuração ideal para o código no VSC posteriormente.
+
+Também é possível inserirmos sombras do LADO DE DENTRO de uma caixa . Apesar de não ser muito recomendável botar isso em prática na maioria dos casos... Para fazer isso basta inserir o parâmetro  inset  como o primeiro valor na Shorthand, exemplo  box-shadow inset 1px 1px 1px #0000007e;  
+
+Frequentemente usamos somente a cor preta para representar sombras, isso porque sombras coloridas geralmente ficam estranhas e com um efeito não natural.
+
+Normalmente, após configurar os valores para a sua sombra, ela ainda continuará com uma cor muito forte (sólida) ... Para amenizar isso e tornar a exibição algo mais natural e suave, adicionamos transparência à cor (black), de forma geral 50% de transparência é o recomendado.

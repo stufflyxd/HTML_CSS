@@ -1,0 +1,3 @@
+JPG - compacta imagens;
+PNG - Transparência e qualidade;
+GIF - transparência e animação;

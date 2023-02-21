@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture><!--Essa tag permite que você cria diversos  img com "source"-->
+        <source media="(max-width: 750px )" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png"> <!--Não esqueça de colocar a extensão do arquivo no "type"-->
+        <img src="imgs/foto-g.png" alt="Imagem flexível">
+
+        <!--O código acima se traduz:
+
+        2 linha: Por padrão, irá carrega a imagem
+
+        1 linha: Se, por acaso, o navegador tiver MENOS de 1000px (que é a nossa imagem de tamanho grande), irá ser carregado a imagem média (srset="imgs/foto-m.png")
+        -->
+    </picture> 
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Ice & Fire - King Canyon.mp3" controls></audio> <!--Em alguns casos, o navegador não é compatível com algumas funcionalidades-->
+    <!--
+        controls -> Controla o áudio
+        autoplay -> Auto executa o áudio
+    -->
+
+    <!--Outro método-->
+    
+    <audio preload="metadata" controls loop>
+     <!--O parâmetros:
+        
+    a) preload = "auto" -> só vai considerar o site carregado, quando tudo nele estiver baixado, o que pode ser prejudicial se você tiver um áudio grande (se você não colocar nada, o padrão vem "auto").
+    
+    b) preload="metadata" -> só vai carregar algumas informações do arquivo áudio, como data, duração, nome etc.
+
+    c) preload="none" -> só vai carregar se o usuário clicar no áudio
+
+    
+     -->
+        <!-- Os sources:
+            Ele vai tentar carregar em sequência todos os áudios:
+            1. Tenta carregar o mp3
+            2. Tenta carregar o ogg
+            3. Tenta carregar wav
+        -->
+        <source src="midia/aikano-3.5-best-of-warlords-of-draenor-wow-pvp.mp3" type="audio/mp3">
+        <source src="midia/aikano-3.5-best-of-warlords-of-draenor-wow-pvp.ogg" type="audio/ogg">
+        <source src="midia/aikano-3.5-best-of-warlords-of-draenor-wow-pvp.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudios. <a href="midia/aikano-3.5-best-of-warlords-of-draenor-wow-pvp.mp3" target="_blank" rel=""  download>Clique aqui para baixar o áudio</a></p>
+
+    </audio>
+</body>
+</html>

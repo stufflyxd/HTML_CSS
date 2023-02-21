@@ -1,0 +1,1 @@
+As aulas que não tiverem txt, é porque a explicação está no código

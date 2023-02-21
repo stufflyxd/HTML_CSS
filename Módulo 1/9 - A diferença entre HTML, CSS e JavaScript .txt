@@ -1,0 +1,61 @@
+					A HTML e AS CSS não são linguagem de programação
+
+1) Hypertext Markup Language (HTML) 
+	a) Hypertext --> É, por exemplo, você clicar em uma área e ser redirecionada para outra.
+	b) Markup --> É baseado em marcas. Não vai existir elementos que existem na linguagem de programação, como, por exemplo, variáveis, condição, repetiçao etc.
+
+
+2) Cascading Style Sheets (CSS) Páginas no estilo em cascata --> Basicamente, uma CSS interfere na outra
+
+3) HTML --> É focado no conteúdo de um site
+	Pode ser -> Textos, imagens, vídeos, tabelas etc
+
+4) CSS --> Desing da página
+	Pode ser -> Cores, sombras, tamanhos, posicionamento
+
+5) Conteúdo em HTML: Todo o conteudo é feito com tags; na maioria das vezes, a tag precisará de um fechamento
+
+	5.1) <h1>Exemplo de título</h1>
+	5.2) <p>Exemplo de parágrafo</p>
+	5.3) <img src="foto.png" alt="Exemplo de foto"> --> src e alt são parâmetros; o que está dentro de aspas são valores
+			src --> Source (Origem) mostra a foto da fonte
+			alt --> Alternativo, ou seja, se não conseguir mostrar o foto.png de alguma maneira, irá mostrar o Exemplo de foto
+
+
+6) Estilo em CSS --> Está em uma tag style do html; Utiliza seletores
+
+	6.1) h1 {
+		font-family:Arial; --> Declaração
+		font-size:20pt;
+		color:blue;
+			color --> propriedade
+			blue --> Valor
+
+		
+}
+
+7) Estrutura básica de documento HTML
+
+	1. Linha -> Diz o que vai desenvolver no site
+		<!DOCTYPE html>
+		<html lang="pt-br">
+			<head>
+				<meta charset="UTF-8"> --> Essa linha indica a compatibilidade das letras, pois o site haverá acentuações, til etc
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"> --> O site vai ocupar 100% da parte "branca" e vai ser visualizado em uma escala padrão de 100%
+				<title>Document</title>
+		
+
+			</head>
+
+			<body>
+				<h1>Olá, Mundo!</h1>
+
+			</body>
+
+
+
+		</html>
+
+8) Como funcionam a HTML e as CSS?
+
+	A HTML e as CSS são traduzidas pelo navegador

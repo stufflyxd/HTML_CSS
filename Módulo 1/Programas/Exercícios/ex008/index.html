@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: rgb(142, 53, 224);
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Principais formatações </h1>
+        <h2>Negrito / Destaque:</h2>
+        <!--
+        Para colocarmos uma frase digitada no html em um dado formato, façamos:
+        1) Selecionar o texto
+        2) CTRL + SHIFT + P
+        3) Escolher Emmet: Wrap with Abbreviation
+        4) Escolha a letra da tag que você quer colocar em volta do texto.
+        -->
+            <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (não semântico).</p>
+            <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag &lt;strong&gt; (semântico).</p>
+
+        <h2>Itálico / Ênfase:</h2>
+
+            <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag <strong>&lt;i&gt;</strong> (não semântico).</p>
+            <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag <strong>&lt;em&gt</strong>; (semântico).</p>
+
+        <h2>Texto marcado:</h2>
+
+            <p>Podemos criar, também, um <mark>texto marcado</mark> usando a tag <strong>&lt;mark&gt;</strong></p>
+            <p>E no outro parágrafo temos, também, outro <mark>texto marcado</mark> no final.</p>
+
+        <h2>Texto grande e pequeno:</h2>
+
+            <p>Estamos criando um <big>texto grande</big> e <small>texto pequeno</small> nesse parágrafo, usando, respectivamente, as tag <strong>&lt;big&gt;</strong> (que está sendo caracterizada no VSC como obsoleta) e <strong>&lt;small&gt;</strong>.</p>
+
+        <h2>Texto deletado:</h2>
+
+            <p>Podemos marcar <del>um texto deletado</del> para indicar que ele deve ser lido mas não considerado, usando a tag <strong>&lt;del&gt;</strong>.</p>
+
+        <h2>Texto inserido:</h2>
+
+            <p>Podemos marcar <ins>um texto inserido </ins>para dar ênfase e indicar que ele foi adicionado posteriormente usando a tag <strong>&lt;ins&gt;</strong>. </p>
+            <p>Existe, também, o sublinhado com a tag <strong>&lt;u&gt</strong>; (não semântico).</p>
+        
+        <h2>Texto sobrescrito:</h2>
+
+            <p>Para iserir coisas do tipo: x<sup>2</sup>+5x+6. Para isso, basta utilizar a tag <strong>&lt;sup&gt;</strong></p>
+
+        <h2>Texto subscrito:</h2>
+
+            <p>Para inserir coisas do tipo: H<sub>2</sub>O. Para isso, basta utilizar a tag <strong>&lt;sub&gt;</strong>.</p>
+        
+</body>
+</html>

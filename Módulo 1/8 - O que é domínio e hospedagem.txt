@@ -1,0 +1,39 @@
+Outras pessoas vão ver meus sites?
+
+	Situação 1: Hospedando no servidor
+		Quando você acessa um site:
+		1) Você vai para o DNS que indica o IP do servidor.
+		2) Você é transferido para o servidor,o qual faz cópias do arquivos das tecnologias em questão, e te envia para que seja renderizado pela WWW.
+
+	Situação 2: Hospedando no meu PC
+		Ao invez do HTML e CSS ser guardado no servidor, as tecnologias serão guardadas no meu PC. Com isso, como não temos uma URL, ninguém conseguirá acessar
+meus arquivos, pois não está registrado no DNS, ou seja, não tenho nenhuma URL.
+
+Domínio:
+
+	1) Nome único
+	2) Pago anualmente
+	3) Vários TLDs (Top Level Domais)
+
+Hospedagem:
+	1) Espaço para armazenar arquivos
+	2) Pago mensalmente
+
+URL (Uniform Resource Locator):
+
+	www.github.com/gustavoguanabara --> URL
+
+	github --> Domínio
+	.com --> TLD
+		Existem:
+			TLD -->
+			GTLD (Gerenic Top Level Domain)
+				com -> Instituição comercial
+				edu -> Educacional
+				gov -> Governamental
+
+			CCTLD (Country)
+				br -> Brasil
+
+
+	www --> É o sub-domínio (No caso, é o sub-domínio principal)

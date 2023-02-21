@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+        <h2>Código-fonte / Pré-formatação:</h2>
+
+            <p>O comando <code>document.getElementById("test")</code> é escrito em JavaScript. A tag &lt;code&gt; faz o texto selecionado virar mono-espaçado, ou seja, fica mais "fácil" a leitura.</p>
+            <!--A tag <pre> transporta as formatações que está no código  para o site-->
+            <pre>
+                <code>
+num= int(input("Digite um número: "))
+if num % 2 ==0:
+    print(f"O número é {num} PAR")
+else:
+    print(f"O número {num} é ÍMPAR")
+                    </code>
+            </pre>
+        <h2>Citações simples:</h2> <!--Usa-se o <q> para colocar em uma citação (coloca aspas)-->
+            <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+
+        <h2>Citações completas:</h2>
+            <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+            <blockquote>
+                A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo de descrevem os blocos de textos
+            </blockquote>
+        <h2>Abreviações:</h2>
+        <!--A tag <abbr title="explicação"> dá um explicação do que é a sigla-->
+            <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascadding Style Sheets">CSS</abbr>. Estou adorando!</p>
+        
+        <h2>Texto invertido:</h2>
+            <p><bdo dir="ltr">Estou aprendendo HTML.</bdo></p> <!--Left to rigth (Lê a esquerda para a direita)-->
+            <p><bdo dir="rtl">Estou aprendendo HTML.</bdo></p> <!--Right to Left (Lê da direita para a esquerda)-->
+    </body>
+</html>

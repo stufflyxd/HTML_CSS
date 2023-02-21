@@ -1,0 +1,3 @@
+Front-end (client-side)-> Foca mais no usuário, na experiência que ele vai ter com o site
+Designer -> Monta a estrutura da página, no qual essa estrutura será dada ao front-end e adaptada para o site
+Back-end (server-side)-> Foca mais na interação com o servidor

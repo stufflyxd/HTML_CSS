@@ -1,0 +1,36 @@
+Às vezes o cliente precisa de uma fonte de texto muito específica que não teremos disponível nos navegadores e nem no Google Fonts, nesses casos temos que utilizar uma plataforma/site alternativo para conseguir encontrar e inserir essa fonte externa específica na nossa página. 
+
+Um site alternativo recomendado para fontes externas é o "dafonte", nele existem várias fontes com estilos diferenciados, que podemos baixar e inserir no nosso site de forma LOCAL.
+
+Uma coisa importante ao escolher uma fonte, é verificar se essa fonte possuí glifos (caracteres) acentuados e uma versão em letras minúsculas, caso contrário não poderemos escrever palavras que usam acentos.
+
+Depois de ter escolhido uma fonte pelo "dafonte", basta clicar na opção "Baixar". Com arquivo da fonte já descompactado, ele irá ser do tipo "ttf" ou "otf".
+
+Para adicionarmos essa fonte de forma LOCAL, devemos criar dentro da pasta do site, uma pasta chamada "fonts" e colar o arquivo de fonte que baixamos lá. 
+
+Já para carregar as fontes em uma página HTML, devemos inserir, como se fosse uma regra e seletor especial, no início do código CSS e fora de qualquer seletor, o comando "@font-face {", após isso o CSS monta a estrutura necessária. Exemplo:
+
+@font-face {
+            font-family: ;
+            src: url();
+        }
+
+Em "font-family: ;" devemos dar um nome (qualquer um que queira) à família de fonte local que criamos. (É recomendado que o nome esteja entre 'aspas simples')
+
+Em "src: url();" devemos utilizar o atalho "Ctrl + Espaço" entre os parênteses e indicar o endereço do arquivo da fonte que baixamos, sendo que logo antes do " ; " podemos inserir o parâmetro "format()", onde vamos colocar, dentro de parênteses, o tipo de FORMATO ttf ou otf,  do arquivo de fonte.
+
+Os formatos para ttf e otf podem ser: 
+
+Tipos de "format()":
+
+	- opentype (otf)
+	- truetype (ttf)
+	- embedded-opentype
+	- truetype-aat (Apple Advanced Typography)
+	- svg
+
+O formato escolhido deve ser inserido entre 'aspas simples'. Exemplo:  "format('opentype');", caso seja "otf"
+
+Configurações adicionais ao font-face: Como configuração adicional, podemos colocar, ainda dentro das chaves do font-face, as Propriedades de Estilos "font-weight" como "normal" e "font-style" como "normal".
+
+Agora que já criamos o nosso font-face configurado com a fonte externa que baixamos, basta inserir o seu nome num "font-family" que precise, para usar essa fonte em qualquer elemento que quiser... como um h1, h2 ou p por exemplo, mantendo sempre uma "Combinação Segura" de fontes logo em seguida.

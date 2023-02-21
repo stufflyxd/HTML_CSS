@@ -1,0 +1,27 @@
+No CSS, sempre que fazemos uma configuração de estilo para um elemento do HTML em um seletor, como por exemplo um h1, todas as unidades desse elemento ficam igualmente marcadas com essa configuração de estilo...
+
+Às vezes, de forma específica, iremos precisar personalizar apenas UMA UNIDADE de um elemento, sem alterar o estilo das demais unidades desse mesmo elemento no HTML (uma unidade de h1 por exemplo). Para fazer isso, temos que aprender a utilizar os comandos de id (#) e de class (.) de maneira eficiente. 
+
+Para usar o id, dentro no código HTML, devemos dar uma identificação para a tag específica do HTML que queremos personalizar, essa identificação é feita dentro da tag HTML com o comando "id". Exemplo: 
+
+" <h1 id="principal">Criando Sites com HTML e CSS</h1> "
+
+Após inserir o comando "id" dentro da tag, é preciso dar um nome (de sua preferência) para essa identificação. Feita a configuração, isso vai diferenciar essa unidade (com id) de todos os seus iguais (mesmo elemento). Com isso iremos conseguir personalizar configurações de estilo para determinadas unidades específicas, sem alterar os seus iguais.
+
+Agora, para configurar especificamente o estilo desse id que denominamos como "principal" no exemplo, devemos ir até o nosso código CSS e abrir um seletor personalizado para esse id que criamos. Esse seletor deve possuir o nome do elemento a que a unidade marcada pertence e o identificador "#principal" (# + nome do id), ficaria assim: 
+
+h1#principal {
+
+}
+
+Dessa forma, toda configuração que fizermos dentro desse seletor personalizado, será válida somente para a tag que tem o respectivo identificador id.
+
+Observação: Não precisamos necessariamente escrever o nome do elemento a que a unidade marcada pertence (h1 no caso do exemplo) antes da "#", ficando somente como "#principal"... Isso faria com que conseguíssemos colocar qualquer tag que quiséssemos como esse id "#principal", podendo alterar o estilo de várias unidades de elementos de forma personalizada... mas é recomendado fazer do jeito do exemplo, com o nome do elemento na frente, já que só permitido usar somente um id e o seu respectivo nome por documento HTML. O uso de "class" que é o indicado para a alteração personalizada do estilo de VÁRIAS unidades específicas.
+
+Uma " # " no CSS identifica um " id " no HTML. Em HTML é " id " = Em CSS é " # "
+
+Já um " . " no CSS identifica uma " class " no HTML. Em HTML é " class " = Em CSS é " . "
+
+Nota: Uma coisa legal que dá para fazer quando você cria um id, é poder criar uma âncora na página que ao clicar te leva direto ao id específico. Exemplo: Colocar no final da página um <a href="#principal">Clique para voltar ao início</a>
+
+Também dá pra usar isso para fazer um índice no começo da página. Quando tem muito conteúdo às vezes as pessoas não têm paciência de ler até encontrar o que querem, colocar essas âncoras no começo para direcionar pra cada tópico é bacana.

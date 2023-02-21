@@ -1,0 +1,5 @@
+strong>ins: Adiciona a tag strong e a tag ins no texto marcado
+
+strong/ins: Adiciona a tag ins e no texto marcado e adiciona a tag strong em TODO(não necessariamente o marcado) o texto.
+
+strong.algumacoisa: Adiciona a tag strong e coloca a class "algumacoisa"

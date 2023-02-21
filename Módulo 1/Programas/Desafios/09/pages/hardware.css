@@ -1,0 +1,12 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon-skip-start {
+    display:flex;
+
+    font-size: 2em;
+
+}

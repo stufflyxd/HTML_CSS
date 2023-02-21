@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Bem-vindo à minha página</h1>
+      <p>Conteúdo principal da página</p>
+    </main>
+    <footer>
+      <p>Copyright © 2022 Meu Nome</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html> é a declaração de tipo de documento. Ele indica ao navegador que o documento é HTML5.
+
+<html lang="pt-br"> especifica o idioma da página.
+
+<head> contém informações sobre a página, como o título da página (que é mostrado na aba do navegador) e meta informações.
+
+<meta charset="UTF-8"> especifica o conjunto de caracteres que será usado na página. O UTF-8 é o conjunto de caracteres recomendado e suporta caracteres em diferentes
+idiomas.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> configura o viewport para que a página se adapte à largura do dispositivo do usuário. Isso é
+importante para garantir que a página seja exibida corretamente em dispositivos móveis.
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> garante que a página será renderizada na versão mais recente do Internet Explorer disponível. Isso é útil para
+garantir que a página funcione corretamente em diferentes versões do IE.
+
+<title>Título da Página</title> especifica o título da página, que é mostrado na aba do navegador.
+
+<link rel="stylesheet" href="estilos.css"> adiciona um arquivo CSS externo para estilizar a página. O atributo "href" especifica o caminho para o arquivo CSS.
+
+<script src="script.js"></script> adiciona um arquivo JavaScript externo para adicionar funcionalidade à página. O atributo "src" especifica o caminho para o arquivo
+JavaScript.
+
+<header> é uma tag semântica que representa a seção de cabeçalho da página, geralmente contém informações como logo, título e navegação.
+
+<nav> é uma tag semântica que representa a seção de navegação da página.
+
+<ul> é uma tag de lista não ordenada, geralmente usada para criar menus de navegação.
+
+<li> é uma tag de item de lista, que é usada dentro de uma lista <ul> ou <ol> para criar itens de lista.
+
+<a> é uma tag de link, que é usada para criar links para outras páginas ou para seções dentro da página atual.
+
+<main> é uma tag semântica que representa a seção principal do conteúdo da página.
+
+<h1> é uma tag de cabeçalho, que é usada para criar títulos de nível 1 (mais importante) a 6 (menos importante).
+
+<p> é uma tag de parágrafo, que é usada para criar parágrafos de texto.
+
+<footer> é uma tag semântica que representa a seção de rodapé da página, geralmente contém informações como créditos e links de contato.
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> adiciona a biblioteca javascript JQuery, que é uma biblioteca popular para facilitar o
+desenvolvimento de javascript.

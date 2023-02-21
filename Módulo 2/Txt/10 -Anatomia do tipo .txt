@@ -1,0 +1,47 @@
+1) Toda fonte quando ela é desenvolvida temos que nos basear nos tamanhos.
+
+2) A letra X é o ponto de partida para construir todas as fontes, pois existe uma altura métrica chamada "altura-x minúsculo". Todas as alturas das letras minúsculas, terão a mesma altura do x.
+
+3) Itens:
+
+	a) Métricos:
+		a) altura-x,altura das maiúsculas, ascendente, descentedente e corpo .
+
+Nem todas as fontes terão o que está abaixo.
+
+	b) Anatômicos:
+		b.a) Geométricos:
+			b.a.a) Serifa: É o prologamento de um "tracinho" no final de uma fonte.
+			Basicamente, o tracinho traz uma representação de uma linha imaginária baseada na serifa. A linha imaginária serve para "guiar" a leitura, deixando-a mais fácil.
+
+			b.a.b) Haste: 
+			b.a.c) Filete: É uma haste que une duas outras hastes, como na letra "A".
+			b.a.d) Arco: Existe na palavra "n".
+			b.a.e) Esporão: O "saltinho" da base de uma letra, como na letra "b", em algumas fontes. O objetivo é dar a impressão que tem uma base mesmo para tirar a impressão que letra irá "cair".
+			b.a.f) Vértice: Existe na letra "A" e na letra "V"
+			b.a.g) Terminal: Existe na letra "r". É a parte que está "solta" na letra - fora da haste.
+
+		b.b) Humanizadas:
+
+			b.b.a) Braço: É um elemento que sai de uma haste e que se leva para cima, como na letra "K".
+			b.b.b) Perna: É um elemento que sai da haste ou do braço que leva para baixo, como na letra "K".
+			b.b.c) Pé: É um elemento da base da letra. Às vezes, é ondem serifa
+			b.b.d) Espinha: Só tem na letra "S", que são as curvas.
+			b.b.e) Barriga: É a junção de dois arcos juntos, como na letra "b"
+			b.b.f) Olho: É a área fechada de uma letra, como na letra Q.
+			b.b.g) Orelha: É um "tracinho" em cima da letra, como na letra "g".
+			b.b.h) Cauda: Fica, às vezes, na parte descendente, como na letra "g" ou na letra "Q"
+
+		O que são glifos?
+
+	a) É qualquer tipo de letra.
+	b) O conjunto de glifo de todos os glifos de uma determinada família, chamamos de FONTE.
+
+		Família tipográfica:
+	É um glifo de uma mesma família, mas que foi feito de diversas outras formas.
+		Categorias de fontes:
+	a) Serifadas: É que tem serifas
+	b) Sans-serif: Sem serifas
+	c) Monoespaçadas: O tamanho horizontal da letra é o mesmo para todas as outras.
+	d) Handwriting: Ela tenta simular a escrita à mão
+	e) Display/Comemorativas: Não se preocupa em obdecer as regras anatômicas.

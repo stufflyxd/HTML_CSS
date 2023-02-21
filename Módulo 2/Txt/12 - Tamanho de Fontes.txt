@@ -1,0 +1,16 @@
+Existem vários tipos de MEDIDAS para tamanho de fontes na propriedade "font-size", os tipos de medidas podem ser divididos em:
+
+Medidas Absolutas: cm (centímetro), mm (milímetro), in (polegada), px (pixel), pt (ponto) e pc (paica)
+
+Nota:
+É possível termos alguns problemas ao utilizar e representar algo com as Medidas Absolutas, pois as vezes o navegador não consegue chegar exatamente na especificação que determinamos, 1 cm por exemplo... Isso porque existem telas de tamanhos diferentes, telas de TV's, celulares e etc... Cada um mostrando de um jeito, sendo que a medida é Absoluta, até mesmo a medida "px" pode sofrer distorções, pois existem telas com diferentes grandezas de pixels.
+
+Medidas Relativas:  em (Relativo ao tamanho atual da fonte e Altura M), ex (Relativo à Altura x de uma fonte), rem (Relativo ao tamanho atual da fonte no ROOT [body ou *]), vw (View Width - Largura da Viewport/Tamanho da Tela), vh (View Height - Altura da Viewport/Tamanho da Tela) e %
+
+De todas essas medidas, basicamente vamos trabalhar somente com "em", "px" e talvez o "rem", essa é a recomendação do W3C para sites.
+
+Para sites, 16px como tamanho da fonte, geralmente é o tamanho normal e mais utilizado, normalmente esse é o tamanho padrão que os navegadores utilizam. 
+
+Já sobre a Medida "em", geralmente 1em é igual = a 16px - Sendo assim, ao utilizar o em, use 1em como tamanho de fonte. Exemplo de diminuição e aumento de em: 0.5em / 1.5em (use sempre ponto " . " e não vírgula)
+
+*Guanabara recomenda usar a Medida "em", porque ela trabalha com porcentagem do tamanho da fonte padrão, isso é bom para o site ser compatível com vários tamanhos de tela.

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+
+    <h2>Listas ordenadas: &lt;ol&gt;</h2>
+        <!--Cada lista item da lista, é <li> (list item)-->
+        <!--OBS: No HTML 5, o </li> se torna opcional-->
+        <ol type="a" start="1"> <!--No type, pode-se escolher o tipo de ordenação-->
+            <li>Acordar</li>
+            <li>Escovar os dentes</li>
+            <li>Tomar café</li>
+            <li>Sou lindo</li>
+        </ol>
+
+    <h2>Listas não ordenadas: &lt;ul&gt;</h2>
+    <ul type="square"> <!--Para os tipos, temos: circle, disc, square. O disc é o padrão-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Queijo</li>
+        <li>Gosto de você</li>
+    </ul>
+
+    <h2>Juntando listas 1.0</h2>
+        <h3>Minhas linguagens favoritas</h3>
+            <ol>
+                <li>Antigas</li>
+                    <ol type="i">
+                        <li>Clipper</li>
+                        <li>Visual basic</li>
+                        <li>Fortran</li>
+                        <li>Delphi</li>
+                    
+                    </ol>
+                <br>
+                <li>Novas</li>
+                    <ol type="i" start="5">
+                        <li>PHP</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Kotlin</li>
+                    </ol>
+            </ol>
+        <h3>Meus jogos favoritos</h3>
+            <ol>
+                <li>NES</li>
+                    <ul>
+                        <li>MarioBros</li>
+                        <ul type="square">
+                            <li>Mario Bros 3</li>
+                            <li>Mario: Lost Levels</li>
+
+                        </ul>
+                        <li>Ninja gaiden</li>
+                        
+                    </ul>
+                <li>SNES</li>
+                    <ul>
+                        <li>Mario</li>
+                        <li>Donkey Kong</li>
+                    </ul>
+                <li>PlayStation</li>
+                    <ul>
+                        <li>Final Fantasy</li>
+                        <li>Castelvania</li>
+                    </ul>
+            </ol>
+    <h2>Lista de definições (Definicion list): &lt;dl&gt;</h2>
+    <!--dt= Item que vai ser descrito; dd = descrição do item-->
+    <!--Pode ser organizado, também, com CSS, mas o google dá mais "valor" a um site que tenha tags de definições, quando um usuário procura por ela.-->
+        <dl>
+            <dt>HTML:</dt>
+                <dd>Linguagem de marcação para a criação de conteúdo para um site.</dd>
+            <dt>CSS:</dt>
+                <dd>Linguagem de marcação para a crianção do design de um site.</dd>
+            <dt>JS:</dt>
+                <dd>Linguagem de programação para a criação de interatividade em um site.</dd>
+        </dl>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+1) Não utilizar a imagem no tamanho máximo
+2) Guarde a imagem para o backup para futuras atualizações
+3) Tamanhos razoáveis:
+	a) 1200 largura com a proporção ligada: Razoável
+	b) 650 largura com a proporção ligada: "Ideal"
+
+
+Comentários do vídeo:
+
+
+A resolução da imagem aparece como 11,8110 porém esse número não está na mesma unidade que o mostrado no tratamento da img anterior (72,000 -> 50,000). A primeira
+imagem a unidade era "pixels/in", já na segunda imagem a resolução é "pixels/mm". Caso tivesse mudado a seleção para pixles/mm na segunda imagem, iria aparecer
+aproximadamente 299,999 e vc poderia reduzir para 72,000 ou 50,000 como fez e conseguir maior compactação.
+
+Uma dica legal: ao exportar imagens JPEG, clicar na caixa de seleção "exibir pré-visualização na janela da imagem". Essa configuração irá mostrar uma prévia da imagem
+e o mais importante, irá dizer o tamanho final da imagem, dessa forma você consegue mexer nas configs da imagem como "qualidade" e "configurações avançadas" e ir
+ajeitando até chegar no equilíbrio entre qualidade de imagem vs. tamanho da imagem para só depois exportar.

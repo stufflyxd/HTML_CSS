@@ -1,0 +1,27 @@
+Referente aos id's, nós temos uma grande limitação Dentro de um documento HTML, só se pode ter um elemento com o id e o seu respectivo nome.
+
+Você pode ter mais de um id em sua página tranquilamente. O que não pode é utilizar dois com o mesmo nome  texto no id. O id é como se fosse um CPF (1 número por pessoa) enquanto a class é o nome (no qual várias pessoas podem ter o mesmo nome).
+
+Pensando nisso, quando temos duas unidades de elementos ou mais e queremos aplicar uma configuração personalizada de estilo em todas elas, nós não devemos usar o id e sim o class.
+
+Uma classe (class) também faz configurações personalizadas, mas podemos ter VÁRIAS UNIDADES DE ELEMENTOS COM UMA MESMA CLASSE - NOME  TEXTO, diferente do id... Sendo que, ao contrário do id, que é identificado com  #  no CSS, o class é identificado com  .  no CSS.
+
+Para usar o class, nós fazemos exatamente como no id, inserindo-o dentro da tag do HTML desejada e identificando esse class com um nome de sua preferência, sendo que a representação do class no CSS é feita com o  .  e a única diferença dele para o id é que podemos usar um mesmo nome de class em várias unidades de elementos de um mesmo documento HTML. 
+
+Ao criar o seletor personalizado de uma class no CSS, geralmente não especificamos um nome de elemento na frente da sua representação ( . ) como é feito no id (ex h1#teste {}), simplesmente inserimos o ponto ( . ) e o nome da class. Dessa forma, toda unidade de elemento que pertence à determinada classe vai simplesmente incorporar as configurações de estilo do respectivo seletor personalizado sem depender de uma especificação de p, h1, h2 e etc.
+
+Uma coisa que iremos seguir como um padrão no desenvolvimento web, é que nunca iremos dar o nome das nossas classes e id's de acordo com a forma, e sim com a função. Isso porque se nomearmos pela forma, verde por exemplo, e posteriormente o nosso cliente falar que quer mudar a cor para azul, seria péssimo porque teríamos uma classe chamada verde que coloca as coisas em azul... então sempre nomeie pela FUNÇÃOFuncionalidade. O nome basico, por exemplo, que por conseguinte deixa os elementos dessa categoria na cor verde.
+
+Nota No HTML temos a tag spanspan, ela não tem uma função específica, serve apenas para demarcar um trecho de texto caso quisermos fazer algum tipo de alteração de estilo nesse trecho com uma class e etc.
+
+Referente às classes, uma coisa que podemos fazer é colocar duas classes ou mais num mesmo elementotag do HTML, isso é possível e para fazer basta digitar, ao lado classe atual e depois de dar um espaçamento, o nome da próxima classe que deseja inserir. Exemplo  
+
+h2 class=avancado destaqueCSS Avaçadoh2
+
+Também é possível colocar um id e uma class num mesmo elementotag do HTML, para fazer isso é só abrir uma class com o seu respectivo nome logo após o id que já existe ou vise versa. Exemplo 
+
+h1 id=principal class=destaqueCriando Sites com HTML e CSSh1
+
+Observação Quando id e class estiverem juntos num mesmo elementotag, as configurações do id irão sempre sobrepor as configurações do class de uma mesma Propriedade de Estilo na hierarquia.   
+
+Existe uma regra de hierarquia de aplicação no HTML. Normalmente, ao criar um site, primeiro configuramos o estilo genérico dos elementos do site, como p, h1 e etc... Posteriormente configuramos os estilos personalizados, com os id's e classes...  Cada camada de aplicação de estilos vai adicionando propriedades novas e sobrescrevendo as configurações do nível anterior. Quando nós aplicamos configurações personalizadas de id ou de class, essas configurações irão sobrepor as configurações de estilo padrão de uma mesma Propriedade de Estilo que fizemos antes. Tem coisas que são ligadas antes e coisas que são ligadas depois, os elementos sempre irão herdar o que veio das camadas acima, mas o que vai ficar valendo é aquele que foi ligado por último, e nessa regra de hierarquia os id's são sempre ligados por último.

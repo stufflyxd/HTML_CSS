@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Utilizando links externos: &lt;a&gt;</h1> <!--O href é o link de referência-->
+    <!--O (target="_blank") faz com que, quando o link for clicado, abre-se uma nova janela no navageador do client-->
+    <!--rel-->
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo" target="_blank" rel="external">canal gratuito no youtube</a> </p>
+    <h1>Usando links internos</h1>
+    <!--Não existe (rel="internal"), mas sim rel="next" e rel="prev"-->
+        <p>Esta é a primeira página do site. Se você quiser, pode acessar a <a href="page002.html" rel="next">segunda página do site</a></p>
+        <p>Você também pode acessar a nossa <a href="noticias/pag003.html">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+<ul>
+    <!--Só é necessário colocar o parâmetro "download" para baixar o arquivo. Em alguns casos, vai depender do navegador.
+    Site para buscar o "type" -> https://www.iana.org/form/media-types
+
+    Quando o navegador vê que o tipo de conteúdo é "application/pdf", ele sabe que deve abrir o arquivo com um visualizador de PDF, se disponível, ou perguntar ao usuário como deseja lidar com o arquivo. Isso é útil para garantir que o arquivo seja exibido corretamente e de forma segura, ao invés de ser aberto com um programa não adequado.-->
+    <li><a href="livro/Codigo Limpo Habilidades Praticas do Agile Software - Robert Martin.pdf" download type="application/pdf">Baixar arquivo em pdf</a></li>
+    <li><a href="livro/Codigo Limpo Habilidades Praticas do Agile Software - Robert Martin.rar" download>Baixar livro compactado</a></li>
+
+</ul>
+</body>
+</html>

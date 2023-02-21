@@ -1,0 +1,54 @@
+a) É utilizado para harmonizar cores.
+
+b) Como algo fica bonito?
+	b.a) Simetria
+	b.b) Cor
+
+c) Cores primárias:
+	c.a) Amarelo, vermelho e azul -> Forma um triângulo equilátero quando dispostas no círculo cromático
+
+d) Cores secundárias:
+	d.a) Laranja, violeta e verde -> Forma, também, um triângulo equilátero.
+
+e) Cores terciárias:
+	e.a) É a mistura das cores primárias e secundárias
+
+	Nomenclatura das cores terciárias: Coloca nome da cor primária, antes, e depois a da cor secundária. Toda cor dita terciária, está entre uma cor primária e secundária.
+
+	Se dispormos as cores amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado e azul-esverdeado no círculo cromático, forma-se um pentágono regular.
+
+f) "Temperatura" de Cores:
+
+	Olha-se o google para saber quais são essas cores
+
+g) Paleta de cores -> De 3 a 5 cores
+
+h) Cores complementares -> São as cores que tem mais contraste(destacam) entre si.
+
+	Por exemplo, se quisermos saber qual a cor que mais contrasta com marrom, escolhemos a cor diametralmente oposta  a esta cor
+
+i) Cores análogas -> Não há contraste tão grande entre as duas cores escolhidas, mas essas cores são distinguíves. Basta pegar as cores "ao lado" do círculo
+
+OBS: Pode-se utilizar os conceitos de CORES ANÁLOGAS e CORES COMPLEMENTARES juntos
+
+j) Cores análogas relacionadas -> Se não quisermos um constraste tão grande, pode-se utilizar essa técnica.
+	Ex.: Escolhe duas cores como referência e pula terceira cor, ou seja, pega a cor adjacente à tonalidade que você iria escolher normalmente
+
+k) Cores intercaladas: Ao escolher um cor central, pula-se sempre uma cor do círculo cromático
+
+l) Cores triádicas: Ao escolher uma cor central, sempre pular 3 cores até formar a palheta de cores
+
+m) Cores em quadrado: Ao escolher uma cor central, sempre pular 2 cores até formar a palheta de cores de 4 cores
+
+n) Cores tetrádicas: 
+
+	Passo 1: Escolhe qualquer cor
+	Passo 2: Pega a cor complementar
+	Passo 3: Pega outra cor qualquer
+	Passo 4: Pega a cor complementar
+Formou-se uma palheta de 4 cores:
+
+o) Monocromia: Nesse tipo de harmonização, escolhe-se uma cor e trabalha com a SATURAÇÃO e o BRILHO (hsl)
+
+
+	
